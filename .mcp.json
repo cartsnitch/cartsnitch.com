@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gitea": {
+      "type": "http",
+      "url": "https://git-mcp.farh.net/mcp",
+      "headers": {
+        "Authorization": "Bearer ${GITEA_TOKEN}"
+      }
+    }
+  }
+}
